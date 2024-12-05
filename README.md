@@ -31,21 +31,21 @@ A través de un archivo pom.xml se realiza la configuración de Maven paara el p
 ![Estructura ](Images/pom_xml.png)
 
 ## 2.1 Detalles del proyecto 📍
-∘ Parent: Utiliza spring-boot-starter-parent como dependencia principal , que incluye versiones predefinidas de plugins y dependencias 
-∘ GroupId, ArtifactId y Version: Identificadores únicos del proyecto.
-∘ Java Version: Especifica la versión de Java utilizada (en este caso, Java 21).
+- **Parent**: Utiliza spring-boot-starter-parent como dependencia principal , que incluye versiones predefinidas de plugins y dependencias 
+- **GroupId, ArtifactId y Version**: Identificadores únicos del proyecto.
+- **Java Version**: Especifica la versión de Java utilizada (en este caso, Java 21).
 
 ## 2.2 Dependencias principales 🔗
-**Spring Boot Starter Web**: Incluye las dependencias necesarias para desarrollar aplicaciones web.
-**Spring Boot Starter Data JPA**: Incluye JPA y otras dependencias para manejar la persistencia de datos.
-**PostgreSQL Driver**: Controlador JDBC para conectarse a una base de datos PostgreSQL.
-**Lombok**: Herramienta que reduce la cantidad de código necesario al generar automáticamente getters, setters, y otros métodos comunes.
-**Spring Boot Starter Test**: Incluye dependencias para pruebas unitarias y de integración.
-**SpringDoc OpenAPI**: Proporciona integración con OpenAPI para documentar APIs RESTful.
-**WebJars Locator Core**: Gestiona dependencias web (JavaScript, CSS) en formato JAR.
-**ClassGraph**: Herramienta para escaneo de clases en el classpath.
-**ModelMapper**: Herramienta para el mapeo de objetos, facilitando la conversión entre DTOs y entidades.
-**Jakarta Persistence API**: Define la API de persistencia para JPA.
+- **Spring Boot Starter Web**: Incluye las dependencias necesarias para desarrollar aplicaciones web.
+- **Spring Boot Starter Data JPA**: Incluye JPA y otras dependencias para manejar la persistencia de datos.
+- **PostgreSQL Driver**: Controlador JDBC para conectarse a una base de datos PostgreSQL.
+- **Lombok**: Herramienta que reduce la cantidad de código necesario al generar automáticamente getters, setters, y otros métodos comunes.
+- **Spring Boot Starter Test**: Incluye dependencias para pruebas unitarias y de integración.
+- **SpringDoc OpenAPI**: Proporciona integración con OpenAPI para documentar APIs RESTful.
+- **WebJars Locator Core**: Gestiona dependencias web (JavaScript, CSS) en formato JAR.
+- **ClassGraph**: Herramienta para escaneo de clases en el classpath.
+- **ModelMapper**: Herramienta para el mapeo de objetos, facilitando la conversión entre DTOs y entidades.
+- **Jakarta Persistence API**: Define la API de persistencia para JPA.
 
 ## 2.3 Plugins de Build
 **Spring Boot Maven Plugin**: Permite empaquetar la aplicación Spring Boot en un archivo JAR ejecutable y configura exclusiones, como Lombok, para el proceso de construcción.
@@ -123,21 +123,21 @@ The project is configured using a pom.xml file to manage Maven for the Spring Bo
 ![Estructura ](Images/pom_xml.png)
 
 ## 2.1 Project Details:
-∘ Parent: Uses spring-boot-starter-parent as the main dependency, which includes predefined versions of plugins and dependencies.
-∘ GroupId, ArtifactId, and Version: Unique identifiers for the project.
-∘ Java Version: Specifies the Java version used (in this case, Java 21).
+- **Parent**: Uses spring-boot-starter-parent as the main dependency, which includes predefined versions of plugins and dependencies.
+- **GroupId, ArtifactId, and Version**: Unique identifiers for the project.
+- **Java Version**: Specifies the Java version used (in this case, Java 21).
 
 ## 2.2 Main Dependencies:
-- Spring Boot Starter Web: Includes the necessary dependencies to develop web applications.
-- Spring Boot Starter Data JPA: Includes JPA and other dependencies to handle data persistence.
-- PostgreSQL Driver: JDBC driver for connecting to a PostgreSQL database.
-- Lombok: A tool that reduces boilerplate code by automatically generating getters, setters, and other common methods.
-- Spring Boot Starter Test: Includes dependencies for unit and integration testing.
-- SpringDoc OpenAPI: Provides OpenAPI integration for documenting RESTful APIs.
-- WebJars Locator Core: Manages web dependencies (JavaScript, CSS) in JAR format.
-- ClassGraph: A tool for scanning classes in the classpath.
-- ModelMapper: A tool for object mapping, simplifying conversions between DTOs and entities.
-- Jakarta Persistence API: Defines the persistence API for JPA.
+- **Spring Boot Starter Web**: Includes the necessary dependencies to develop web applications.
+- **Spring Boot Starter Data JPA**: Includes JPA and other dependencies to handle data persistence.
+- **PostgreSQL Driver**: JDBC driver for connecting to a PostgreSQL database.
+- **Lombok**: A tool that reduces boilerplate code by automatically generating getters, setters, and other common methods.
+- **Spring Boot Starter Test**: Includes dependencies for unit and integration testing.
+- **SpringDoc OpenAPI**: Provides OpenAPI integration for documenting RESTful APIs.
+- **WebJars Locator Core**: Manages web dependencies (JavaScript, CSS) in JAR format.
+- **ClassGraph**: A tool for scanning classes in the classpath.
+- **ModelMapper**: A tool for object mapping, simplifying conversions between DTOs and entities.
+- **Jakarta Persistence API**: Defines the persistence API for JPA.
 
 ## 2.3 Build Plugins:
 **Spring Boot Maven Plugin**: Enables packaging the Spring Boot application into an executable JAR file and configures exclusions, such as Lombok, during the build process.
