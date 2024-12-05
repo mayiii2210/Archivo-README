@@ -11,19 +11,19 @@ Este manual describe la entrega del proyecto Backend elaborado en el lenguaje de
 
 ## 1.2 Estructura del proyecto 🏢
 ![Estructura ](Images/estructura.png)
-✓ **src/main/java/**: Contiene el código Java de la aplicación.
-✓ **com.appspc.apilibros**: Paquete principal de la aplicación.
-✓ **controllers**: Clases que manejan las solicitudes HTTP y devuelven respuestas.
-✓ **dto**: Clases que representan los datos transferidos entre la aplicación y la base de datos.
-✓ **services**: Clases que proporcionan la lógica de negocio de la aplicación.
-✓ **interfaces**: Interfaces que definen las operaciones que se pueden realizar en la aplicación.
-✓ **models**: Clases que representan los datos almacenados en la base de datos.
-✓ **repositories**: Clases que proporcionan acceso a la base de datos.
-✓ **src/main/resources**: Contiene los archivos de configuración y recursos de la aplicación.
-✓ **application.properties**: Archivo de configuración que define las propiedades de la aplicación, incluyendo la conexión con la base de datos.
-✓ **apilibros.sql**: Archivo SQL que define la creación de las tablas de la base de datos.
-✓ **src/test/java**: Contiene las pruebas unitarias y de integración de la aplicación.
-✓ **ApilibrosApplicationTests.java**: Clase que contiene las pruebas unitarias y de integración de la aplicación.
+- **src/main/java/**: Contiene el código Java de la aplicación.
+- **com.appspc.apilibros**: Paquete principal de la aplicación.
+- **controllers**: Clases que manejan las solicitudes HTTP y devuelven respuestas.
+- **dto**: Clases que representan los datos transferidos entre la aplicación y la base de datos.
+- **services**: Clases que proporcionan la lógica de negocio de la aplicación.
+- **interfaces**: Interfaces que definen las operaciones que se pueden realizar en la aplicación.
+- **models**: Clases que representan los datos almacenados en la base de datos.
+- **repositories**: Clases que proporcionan acceso a la base de datos.
+- **src/main/resources**: Contiene los archivos de configuración y recursos de la aplicación.
+- **application.properties**: Archivo de configuración que define las propiedades de la aplicación, incluyendo la conexión con la base de datos.
+- **apilibros.sql**: Archivo SQL que define la creación de las tablas de la base de datos.
+- **src/test/java**: Contiene las pruebas unitarias y de integración de la aplicación.
+- **ApilibrosApplicationTests.java**: Clase que contiene las pruebas unitarias y de integración de la aplicación.
 
 ## 2. Configuración del proyecto ⚙️
 A través de un archivo pom.xml se realiza la configuración de Maven paara el proyecto Spring Boot. Este contiene toda la información necesaria para construir, empaquetar y gestionar las dependencias del proyecto 
@@ -50,6 +50,7 @@ A través de un archivo pom.xml se realiza la configuración de Maven paara el p
 **Spring Boot Maven Plugin**: Permite empaquetar la aplicación Spring Boot en un archivo JAR ejecutable y configura exclusiones, como Lombok, para el proceso de construcción.
 
 **pom.xml**
+
 ![Estructura ](Images/pom.png)
 ![Estructura ](Images/pom1.png)
 ![Estructura ](Images/pom2.png)
