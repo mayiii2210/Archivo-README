@@ -26,7 +26,8 @@ Este manual describe la entrega del proyecto Backend elaborado en el lenguaje de
 - **ApilibrosApplicationTests.java**: Clase que contiene las pruebas unitarias y de integración de la aplicación.
 
 ## 2. Configuración del proyecto ⚙️
-A través de un archivo pom.xml se realiza la configuración de Maven paara el proyecto Spring Boot. Este contiene toda la información necesaria para construir, empaquetar y gestionar las dependencias del proyecto 
+A través de un archivo pom.xml se realiza la configuración de Maven paara el proyecto Spring Boot. Este contiene toda la información necesaria para construir, empaquetar y gestionar las dependencias del proyecto.
+
 ![Estructura ](Images/pom_xml.png)
 
 ## 2.1 Detalles del proyecto 📍
@@ -73,10 +74,12 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 
 ## 4. Creación de las Tablas de la Base de Datos 📋
 Las tablas de la base de datos se crean utilizando el archivo apilibros.sql que se encuentra en el directorio **src/main/resources**
+
 ![Estructura ](Images/sql.png)
 
 ## 5. Ejecución de la Aplicación
 La aplicación se ejecuta utilizando el comando ```bash mvn spring-boot:run``` en la terminal.
+
 ![Estructura ](Images/mvn.png)
 
 ## 6. Visualización de la API
@@ -84,6 +87,7 @@ La API se puede visualizar utilizando Swagger en la URL **http://localhost:8080/
 
 ## 7. Pruebas Unitarias y de Integración
 Las pruebas unitarias y de integración se encuentran en la clase ApilibrosApplicationTests.java que se encuentra en el directorio src/test/java. Estas pruebas se pueden ejecutar utilizando el comando ```bash mvn test``` en la terminal.
+
 ![Estructura ](Images/test.png)
 
 # BACKEND PROJECT DELIVERY MANUAL 
@@ -115,6 +119,7 @@ This manual describes the delivery of the Backend project developed in Java prog
 
 ## 2.  Project Configuration: 
 The project is configured using a pom.xml file to manage Maven for the Spring Boot project. This file contains all the necessary information to build, package, and manage the project’s dependencies.
+
 ![Estructura ](Images/pom_xml.png)
 
 ## 2.1 Project Details:
@@ -138,6 +143,7 @@ The project is configured using a pom.xml file to manage Maven for the Spring Bo
 **Spring Boot Maven Plugin**: Enables packaging the Spring Boot application into an executable JAR file and configures exclusions, such as Lombok, during the build process.
 
 **pom.xml**
+
 ![Estructura ](Images/pom.png)
 ![Estructura ](Images/pom1.png)
 ![Estructura ](Images/pom2.png)
@@ -159,10 +165,12 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 ```
 ## 4. Creating the Database Tables
 The database tables are created using the apilibros.sql file located in the src/main/resources directory.
+
 ![Estructura ](Images/sql.png)
 
 ## 5. Running the Application
 The application is run using the command mvn spring-boot:run in the terminal.
+
 ![Estructura ](Images/mvn.png)
 
 ## 6. API Documentation
@@ -170,12 +178,6 @@ The API is documented using Swagger and can be accessed at **http://localhost:80
 
 ## 7. Unit Tests and Integration Tests
 The unit tests and integration tests are located in the ApilibrosApplicationTests.java class in the src/test/java directory. These tests can be run using the command mvn test in the terminal.
+
 ![Estructura ](Images/test.png)
-
-
-
-
-
-
-
 
