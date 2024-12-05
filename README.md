@@ -96,10 +96,10 @@ Las pruebas unitarias y de integración se encuentran en la clase ApilibrosAppli
 This manual describes the delivery of the Backend project developed in Java programming language. The project uses PostgreSQL as the database, Swagger for API documentation, and follows a layered structure to organize the code.
 
 ## 1.1 What tools do you need to use this project?
-• JDK 21 (Java Development Kit)
-• Maven
-• Base de datos PostgreSQL
-• pgAdmin 4
+       • JDK 21 (Java Development Kit)
+       • Maven 
+       • Base de datos PostgreSQL 
+       • PgAdmin 4 
 
 ## 1.2 Project Structure
 ![Estructura ](Images/estructura.png)
